@@ -1,0 +1,30 @@
+{
+  "name": "Print Flat.io Scores",
+  "description": "Flat.io has a paywall for printing individual parts. I figured out how to bypass it, and thought I'd share.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://flat.io/score/*"],
+      "js": ["flat.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "128": "flat.png"
+    }
+  },
+  "icons": {
+    "128": "flat.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["chrome.png"],
+      "matches": [ "https://flat.io/*" ]
+    }
+  ]
+}

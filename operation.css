@@ -1,0 +1,15 @@
+/* operation.css */
+
+body {
+  background-color: #1f2227;
+  color: white;
+  margin-inline: 25%;
+}
+
+h1 {
+  text-align: center
+}
+
+b {
+  color: darkblue;
+}

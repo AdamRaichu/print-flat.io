@@ -1,0 +1,3 @@
+.score-drawer svg line:not([stroke]) {
+  stroke: black;
+}
