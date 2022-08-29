@@ -1,6 +1,6 @@
 // background.js
 
-chrome.runtime.onMessage.addListener(function(m) {
+chrome.runtime.onMessage.addListener(function (m) {
   if (m.pwrd === "flat.io") {
     chrome.tabs.create({
       url: `print.html?body=${encodeURIComponent(m.score)}`,

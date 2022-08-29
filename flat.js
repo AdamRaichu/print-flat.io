@@ -1,8 +1,8 @@
 // flat.js
 
-setTimeout(function() {
+setTimeout(function () {
   var b = document.querySelector('[aria-label=print]');
-  b.addEventListener("click", function() {
+  b.addEventListener("click", function () {
     var c = document.querySelector('.sco-exp.exp-chformat.choose-format_eYXas');
     var p = document.createElement("button");
     p.classList.add("choose-format-item_IBm_p");
@@ -17,7 +17,7 @@ setTimeout(function() {
     p.children[1].innerText = "Print with Chrome Extension";
     p.children[1].style.color = "darkblue";
     c.insertBefore(p, c.children[2]);
-    p.addEventListener("click", function() {
+    p.addEventListener("click", function () {
       var barlines = document.querySelectorAll(".barline");
       var loaded = false;
       for (c = 0; c < barlines.length; c++) {
