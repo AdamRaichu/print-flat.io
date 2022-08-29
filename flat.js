@@ -32,7 +32,13 @@ setTimeout(function () {
         }
       }
       if (!loaded) {
-        alert("Are you sure you loaded the entire score?");
+        if (confirm("It doesn't look like the entire score is loaded. Continue anyway?")) {
+          var s = document.getElementById("svg-content").innerHTML;
+          chrome.runtime.sendMessage({
+            pwrd: "flat.io",
+            score: s
+          });
+        }
       }
     });
   });
