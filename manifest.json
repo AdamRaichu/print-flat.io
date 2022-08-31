@@ -1,7 +1,7 @@
 {
   "name": "Print Flat.io Scores",
   "description": "Flat.io has a paywall for printing individual parts. I figured out how to bypass it, and thought I'd share.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 3,
   "permissions": [
     "tabs"

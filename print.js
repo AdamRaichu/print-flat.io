@@ -7,3 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(".tear-drop").remove();
   print();
 });
+
+window.addEventListener("afterprint", function () {
+  window.close();
+});

@@ -1,3 +1,16 @@
+# Changelog
+
+## v1.1.0 <!-- markdownlint-disable MD041 MD025 -->
+
+Features:
+
+- Print.html will autoclose after printing or print cancellation.
+- Operation.html now shows the changelog.
+
+Notes:
+
+- This version adds the large files showdown.js (md/html converter) and jQuery.js. They make the file size significantly larger.
+
 # v1.0.0
 
 First release.
