@@ -1,6 +1,6 @@
-# Changelog
+# Changelog <!-- markdownlint-disable MD041 MD025 -->
 
-## v1.1.0 <!-- markdownlint-disable MD041 MD025 -->
+## v1.1.0
 
 Features:
 
