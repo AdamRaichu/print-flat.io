@@ -2,6 +2,8 @@
 
 setTimeout(function () {
   var b = document.querySelector('[aria-label=print]');
+  b.style.border = "3px solid darkblue";
+  b.style.borderRadius = "4px";
   b.addEventListener("click", function () {
     var c = document.querySelector('.sco-exp.exp-chformat.choose-format_eYXas');
     var p = document.createElement("button");
